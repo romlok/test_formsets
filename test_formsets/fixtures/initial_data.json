@@ -1,0 +1,17 @@
+[
+	{
+		"pk": 1,
+		"model": "test_formsets.author",
+		"fields": {"name": "Bob"}
+	},
+	{
+		"pk": 1,
+		"model": "test_formsets.book",
+		"fields": {"title": "The trials of Bob", "author": 1}
+	},
+	{
+		"pk": 2,
+		"model": "test_formsets.book",
+		"fields": {"title": "Bob's journey", "author": 1}
+	}
+]

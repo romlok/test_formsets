@@ -1,0 +1,11 @@
+<html>
+	<body>
+		<h4>This is the author form:</h4>
+		{{ form.as_p }}
+		<h4>This is the formset of books:</h4>
+		{{ book_formset.as_p }}
+		<h4>This is the value of ._meta.fields for the first form in the fieldset:</h4>
+		<p>{{ book_form_meta.fields }}</p>
+		<h5>Reload the page for more fun!</h5>
+	</body>
+</html>
